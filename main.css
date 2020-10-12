@@ -528,6 +528,7 @@ nav ul li a:hover{
 .full_box{
     margin-bottom: 10px;
     display: flex;
+    justify-content: space-between;
 }
 .full_box .box{
     display: block;
@@ -547,25 +548,25 @@ nav ul li a:hover{
     z-index:3;
     color:white;
 }
-.box .box1 #img1{
+.box .box1 .img1{
     position: absolute;
     top:0px;
     z-index:1;
     left:7px;
 }
-.box .box1 #img2{
+.box .box1 .img2{
     position: absolute;
     top:0px;
     z-index:1;
     left:39px;
 }
-.box .box1 #img3{
+.box .box1 .img3{
     position: absolute;
     top:0px;
     z-index:1;
     left:71px;
 }
-.box .box1 #img4{
+.box .box1 .img4{
     position: absolute;
     z-index:1;
     left:50px;
@@ -579,4 +580,26 @@ nav ul li a:hover{
     font-size: 12px;
     font-weight: bold;
     color:#474341;
+}
+.box .ngp{
+    margin-top:280px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    font-size: 18px;
+}
+.box .descrip{
+    margin-left:20%;
+}
+.box .priece{
+    font-size:18px;
+    color:#f43a55;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.box .priece span{
+    font-size:14px;
+    color:#939190;
+    font-weight: bold;
+    text-decoration:line-through;
+    margin-left:5px;
 }
